@@ -40,3 +40,22 @@
 .paddingTopCopy {
   padding-top: 1em;
 }
+
+#navbar {
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
