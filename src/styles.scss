@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "assets/stylesheets/_font-awesome.scss";
+
+#home, #impressum, #kontakt, #footer {
+  //padding-top: 15%;
+  //padding-top: 6rem;
+  padding-top: 6em;
+  padding-bottom: 3.5em;
+  //padding-top: 96px;
+}
+
+#impressum, #footer {
+  background-color: black;
+  color: white;
+}
+
+#img {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+  background-color: black;
+}
+
+#video {
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
+}
+
+.arrowUpLink {
+  color: white;
+}
+.arrowUpLink:active, .arrowUpLink:hover {
+  color: grey;
+}
+
+.padding-Top {
+  padding-top: 2em;
+}
