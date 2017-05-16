@@ -7,6 +7,7 @@ import { KontaktComponent } from './kontakt/kontakt.component';
 import { ImgComponent } from './img/img.component';
 import { VideoComponent } from './video/video.component';
 import { FooterComponent } from './footer/footer.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     KontaktComponent,
     ImgComponent,
     VideoComponent,
-    FooterComponent
+    FooterComponent,
+    ServiceComponent
   ],
   providers: [
   ],
