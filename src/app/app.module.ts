@@ -8,10 +8,11 @@ import { ImgComponent } from './img/img.component';
 import { VideoComponent } from './video/video.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceComponent } from './service/service.component';
+import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
 
 @NgModule({
   imports: [
-    BrowserModule 
+    BrowserModule,
   ],
   declarations: [
     AppComponent,
@@ -21,10 +22,12 @@ import { ServiceComponent } from './service/service.component';
     ImgComponent,
     VideoComponent,
     FooterComponent,
-    ServiceComponent
+    ServiceComponent,
+    LebenslaufComponent,
   ],
   providers: [
   ],
   bootstrap: [ AppComponent ]
 })
-export class AppModule { }
+export class AppModule { 
+}
