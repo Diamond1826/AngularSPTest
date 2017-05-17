@@ -25,8 +25,6 @@ import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
     ServiceComponent,
     LebenslaufComponent,
   ],
-  providers: [
-  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { 
