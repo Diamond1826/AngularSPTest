@@ -2,12 +2,16 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "assets/stylesheets/_font-awesome.scss";
 
-#home, #impressum, #footer, #service, #lebenslauf {
+#home, #impressum, #service, #lebenslauf {
   //padding-top: 15%;
   //padding-top: 6rem;
   padding-top: 6em;
   padding-bottom: 3.5em;
   //padding-top: 96px;
+}
+
+#footer {
+  padding-bottom: 3.5em;
 }
 
 #kontakt {
