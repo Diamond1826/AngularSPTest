@@ -68,3 +68,31 @@ body {
 .padding-Top-Submit {
   padding-top: 1em;
 } 
+
+html {
+  font-size: 12px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  html {
+    font-size: 19px;
+  }
+}
