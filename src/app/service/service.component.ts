@@ -21,6 +21,6 @@ export class ServiceComponent implements OnInit {
           $(this).removeClass("slide");
         }
   		});
-	}); 
+    }); 
   }
 }

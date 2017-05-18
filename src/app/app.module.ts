@@ -9,6 +9,7 @@ import { VideoComponent } from './video/video.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceComponent } from './service/service.component';
 import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
+import { StandortComponent } from './standort/standort.component';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
     FooterComponent,
     ServiceComponent,
     LebenslaufComponent,
+    StandortComponent,
   ],
   bootstrap: [ AppComponent ]
 })
