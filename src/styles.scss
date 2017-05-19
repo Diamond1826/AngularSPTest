@@ -36,11 +36,11 @@
   background-color: black;
 }
 
-.arrowUpLink {
-  color: white;
+.arrowUpLink, .arrowUpLink:visited {
+  color: white !important;
 }
 .arrowUpLink:active, .arrowUpLink:hover {
-  color: grey;
+  color: grey !important;
 }
 
 .padding-Top {
