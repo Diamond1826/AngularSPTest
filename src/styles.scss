@@ -2,18 +2,12 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "assets/stylesheets/_font-awesome.scss";
 
-#home, #impressum, #service, #lebenslauf {
+#impressum, #service, #lebenslauf {
   //padding-top: 15%;
   //padding-top: 6rem;
   padding-top: 6em;
   padding-bottom: 3.5em;
   //padding-top: 96px;
-}
-
-#home {
-  background-image: url("assets/img/bild1.jpg");
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 #footer {
@@ -33,6 +27,8 @@
 #img {
   padding-top: 4.5em;
   padding-bottom: 3.5em;
+  padding-right: 0;
+  padding-left: 0;
   background-color: black;
 }
 
@@ -40,6 +36,33 @@
   padding-top: 5.7em;
   padding-bottom: 3.5em;
   background-color: black;
+}
+
+#carouselExampleIndicators {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+#home {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.caption2 {
+  padding-bottom: 55%;
+  color: white;
+}
+
+.startImg {
+  background-color: black;
+}
+
+.startLink, .startLink:visited {
+  color: white;
 }
 
 .arrowUpLink, .arrowUpLink:visited {
@@ -65,7 +88,7 @@ body {
   font: 400 15px/1.8 Lato, sans-serif;
 }
 
-.carousel-inner img {
+.white img {
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%); /* make all photos black and white */
   width: 100%; /* Set width to 100% */
