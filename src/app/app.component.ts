@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import {WINDOW, WINDOW_PROVIDERS} from './window.service';
 declare var $: any;
 
 @Component({
