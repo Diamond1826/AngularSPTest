@@ -73,7 +73,6 @@ html {
     visibility: visible;
     }
 @include media-breakpoint-up(lg) {
-  html {
     .slide {
     /* The name of the animation */
     animation-name: slide;
@@ -84,10 +83,8 @@ html {
     /* Make the element visible */
     visibility: visible;
     }
-  }
 }
 @include media-breakpoint-up(xl) {
-  html {
     .slide {
     /* The name of the animation */
     animation-name: slide;
@@ -98,10 +95,8 @@ html {
     /* Make the element visible */
     visibility: visible;
     }
-  }
 }
 @include media-breakpoint-up(md) {
-  html {
     .slide {
     /* The name of the animation */
     animation-name: slide;
@@ -112,10 +107,8 @@ html {
     /* Make the element visible */
     visibility: visible;
     }
-  }
 }
 @include media-breakpoint-up(sm) {
-  html {
     .slide {
     /* The name of the animation */
     animation-name: slide;
@@ -126,10 +119,8 @@ html {
     /* Make the element visible */
     visibility: visible;
     }
-  }
 }
 @include media-breakpoint-down(sm) {
-  html {
     .slide {
     /* The name of the animation */
     animation-name: slide;
@@ -140,7 +131,6 @@ html {
     /* Make the element visible */
     visibility: visible;
     }
-  }
 }
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
