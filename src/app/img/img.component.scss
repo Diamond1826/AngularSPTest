@@ -1,0 +1,30 @@
+.white img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */
+  //width: 100%; /* Set width to 100% */
+  //margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+#carouselExampleIndicators {
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+#img {
+  margin-top: 4.5em;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  #img {
+    padding-top: 2em;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

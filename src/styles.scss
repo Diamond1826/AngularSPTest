@@ -9,59 +9,10 @@
   margin-bottom: 3.5em;
   //padding-top: 96px;
 }
-
-#footer {
-  padding-bottom: 3.5em;
-}
-
-#kontakt {
-  padding-top: 6em;
-  padding-bottom: 5em;
-}
-
 #impressum, #footer {
   background-color: black;
   color: white;
 }
-
-#img {
-  margin-top: 4.5em;
-  padding-bottom: 0;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  #img {
-    padding-top: 2em;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-#video {
-  padding-top: 5.5em;
-  padding-bottom: 3.5em;
-  background-color: black;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-#carouselExampleIndicators {
-  width: auto;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-#home {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .caption2 {
   padding-bottom: 15rem;
   color: white;
@@ -77,18 +28,6 @@
 .startImg {
   background-color: black;
 }
-
-.startLink, .startLink:visited {
-  color: white;
-}
-
-.arrowUpLink, .arrowUpLink:visited {
-  color: white !important;
-}
-.arrowUpLink:active, .arrowUpLink:hover {
-  color: grey !important;
-}
-
 .padding-Top {
   padding-top: 2em;
 }
@@ -96,35 +35,9 @@
 .paddingTopCopy {
   padding-top: 1em;
 }
-
-#navbar {
-  font-family: Montserrat, sans-serif;
-}
-
 body {
   font: 400 15px/1.8 Lato, sans-serif;
 }
-
-.white img {
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%); /* make all photos black and white */
-  //width: 100%; /* Set width to 100% */
-  //margin: auto;
-}
-
-.carousel-caption h3 {
-  color: #fff !important;
-}
-
-.submit-kontakt {
-  background-color: black;
-  color: white;
-}
-
-.padding-Top-Submit {
-  padding-top: 1em;
-} 
-
 html {
   font-size: 12px !important;
 }

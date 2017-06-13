@@ -9,11 +9,15 @@ import { VideoComponent } from './video/video.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceComponent } from './service/service.component';
 import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
-import { StandortComponent } from './standort/standort.component';
+import { GoogleMapsComponent } from './google-maps/google-maps.component';
+import { GoogleApiService } from './google-maps/shared/google-api.service';
+import { HttpModule }    from '@angular/http';
 
 @NgModule({
   imports: [
     BrowserModule,
+    HttpModule,
+
   ],
   declarations: [
     AppComponent,
@@ -25,8 +29,9 @@ import { StandortComponent } from './standort/standort.component';
     FooterComponent,
     ServiceComponent,
     LebenslaufComponent,
-    StandortComponent,
+    GoogleMapsComponent,
   ],
+  providers: [ GoogleApiService ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { 

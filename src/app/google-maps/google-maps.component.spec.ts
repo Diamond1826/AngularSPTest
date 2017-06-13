@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StandortComponent } from './standort.component';
+import { GoogleMapsComponent } from './google-maps.component';
 
-describe('StandortComponent', () => {
-  let component: StandortComponent;
-  let fixture: ComponentFixture<StandortComponent>;
+describe('GoogleMapsComponent', () => {
+  let component: GoogleMapsComponent;
+  let fixture: ComponentFixture<GoogleMapsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ StandortComponent ]
+      declarations: [ GoogleMapsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StandortComponent);
+    fixture = TestBed.createComponent(GoogleMapsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
