@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import {WINDOW, WINDOW_PROVIDERS} from './window.service';
+//import { smoothScroll } from 'ng-smooth-scroll';
 declare var $: any;
 
 @Component({
@@ -18,5 +18,10 @@ export class AppComponent implements OnInit {
             	}, 1000);
         	}
     	});
+      /*link: function($scope, $elem, $attrs){
+        var options = $attrs;
+
+        smoothScroll($elem[0], options);
+      }*/
   	}
 }

@@ -24,10 +24,6 @@
     color: white;
   }
 }
-
-.startImg {
-  background-color: black;
-}
 .padding-Top {
   padding-top: 2em;
 }
@@ -53,7 +49,6 @@ html {
     font-size: 16px !important;
   }
 }
-
 @include media-breakpoint-up(lg) {
   html {
     font-size: 18px !important;
@@ -73,11 +68,80 @@ html {
     -webkit-animation-name: slide;
     /* The duration of the animation */
     animation-duration: 1s;
+    -webkit-animation-duration: 1;
+    /* Make the element visible */
+    visibility: visible;
+    }
+@include media-breakpoint-up(lg) {
+  html {
+    .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
     -webkit-animation-duration: 1s;
     /* Make the element visible */
     visibility: visible;
+    }
+  }
 }
-
+@include media-breakpoint-up(xl) {
+  html {
+    .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+  html {
+    .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+    }
+  }
+}
+@include media-breakpoint-up(sm) {
+  html {
+    .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    /* Make the element visible */
+    visibility: visible;
+    }
+  }
+}
+@include media-breakpoint-down(sm) {
+  html {
+    .slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    /* Make the element visible */
+    visibility: visible;
+    }
+  }
+}
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
 @keyframes slide {
     0% {

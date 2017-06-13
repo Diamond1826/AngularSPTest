@@ -11,15 +11,16 @@ import { ServiceComponent } from './service/service.component';
 import { LebenslaufComponent } from './lebenslauf/lebenslauf.component';
 import { GoogleMapsComponent } from './google-maps/google-maps.component';
 import { GoogleApiService } from './google-maps/shared/google-api.service';
-import { HttpModule }    from '@angular/http';
+import { HttpModule } from '@angular/http';
+//import { smoothScroll } from "ng-smooth-scroll";
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
-
   ],
   declarations: [
+    //smoothScroll,
     AppComponent,
     HomeComponent,
     ImpressumComponent,
